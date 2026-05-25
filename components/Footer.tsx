@@ -35,6 +35,8 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-gray-400">
               <li><Link href="/about" className="hover:text-[#c8a86e]">About</Link></li>
               <li><Link href="/contact" className="hover:text-[#c8a86e]">Contact</Link></li>
+              <li><Link href="/privacy" className="hover:text-[#c8a86e]">Privacy</Link></li>
+              <li><Link href="/terms" className="hover:text-[#c8a86e]">Terms</Link></li>
               <li>
                 <a href="https://github.com/djameltapiadev-prog" target="_blank" rel="noopener" className="hover:text-[#c8a86e]">
                   GitHub
