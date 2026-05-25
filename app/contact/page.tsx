@@ -18,7 +18,7 @@ export default function ContactPage() {
     // For real integration: hook this to Formspree.
     // Replace YOUR_FORM_ID in the URL with your real one.
     try {
-      const res = await fetch("https://formspree.io/f/YOUR_FORM_ID", {
+      const res = await fetch("https://formspree.io/f/xojbkabg", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
