@@ -3,10 +3,9 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Reveal from "@/components/Reveal";
 import MagneticButton from "@/components/MagneticButton";
-import Stats from "@/components/Stats";
-import LogoCloud from "@/components/LogoCloud";
+import TechStack from "@/components/TechStack";
+import Portfolio from "@/components/Portfolio";
 import Process from "@/components/Process";
-import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 import { MessageSquare, Image as ImageIcon, Zap, Shield, Code, Sparkles } from "lucide-react";
 
@@ -53,9 +52,7 @@ export default function HomePage() {
         </Reveal>
       </section>
 
-      <Stats />
-
-      <LogoCloud />
+      <TechStack />
 
       <section className="max-w-7xl mx-auto px-6 py-20">
         <Reveal>
@@ -88,6 +85,8 @@ export default function HomePage() {
         </div>
       </section>
 
+      <Portfolio />
+
       <Process />
 
       <section className="max-w-7xl mx-auto px-6 py-20">
@@ -116,8 +115,6 @@ export default function HomePage() {
           ))}
         </div>
       </section>
-
-      <Testimonials />
 
       <FAQ />
 
